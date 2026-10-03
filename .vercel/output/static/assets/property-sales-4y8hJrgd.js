@@ -1,0 +1,1 @@
+import{p as e}from"./site-CsliZWHZ.js";import{a as t}from"./index-tK7niEng.js";import{t as n}from"./ServiceView-H3Y-1Ln5.js";var r=e();function i(){return(0,r.jsx)(n,{service:t(`property-sales`)})}export{i as component};

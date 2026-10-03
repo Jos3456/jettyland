@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Jettyland Investments – Your Partner in Real Estate",
+      "hasCanvas": false,
+      "bodyTextLen": 3266,
+      "bodyTextHash": "ed438af850fbf34d97f8414ecb4f481d40262c88e651335e2ea48986cdf76997",
+      "bodyTextPrefix": "NSSF Building 10th Floor, Mombasa. info@jettylandinvestments.com",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Jettyland Investments – Your Partner in Real Estate",
+      "hasCanvas": false,
+      "bodyTextLen": 3080,
+      "bodyTextHash": "1cfe86ae353e13cf923fb1504b37ddf001f2a89f55180971073efaffa557f323",
+      "bodyTextPrefix": "WHAT WE DO Our Business Solution Welcome to Jettyland Investment",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

@@ -615,4 +615,9 @@ export function getPost(slug: string) {
   return posts.find((p) => p.slug === slug);
 }
 
-export const latestPosts = posts.slice(0, 3);
+export const latestPosts = [
+  posts.find((p) => p.slug === "signs-its-time-to-hire-a-property-manager")!,
+  posts.find((p) => p.slug === "how-accurate-property-valuation-can-maximize-your-sale-price")!,
+  posts.find((p) => p.slug === "top-7-benefits-of-hiring-a-property-management-company")!,
+];
+

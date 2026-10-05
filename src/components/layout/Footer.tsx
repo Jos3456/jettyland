@@ -1,12 +1,20 @@
 import { Link } from "@tanstack/react-router";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { company, footerQuickLinks } from "@/lib/site";
-import { services } from "@/lib/services";
+
+const footerServices = [
+  { title: "Consultancy & Valuation", href: "/consultancy-valuation" },
+  { title: "Property Management", href: "/property-management" },
+  { title: "Rent Collection", href: "/rent-collection" },
+  { title: "Property Sales", href: "/property-sales" },
+  { title: "Letting Services", href: "/letting-services" },
+];
 
 export function Footer() {
   return (
     <footer className="bg-footer text-footer-muted">
       <div className="container-page grid gap-10 py-16 sm:grid-cols-2 lg:grid-cols-4">
+        {/* Column 1: Logo & Info */}
         <div>
           <img src="/images/logo-light.png" alt={company.name} className="mb-5 h-12 w-auto" />
           <p className="text-sm leading-relaxed">
@@ -15,6 +23,7 @@ export function Footer() {
           </p>
         </div>
 
+        {/* Column 2: Quick Links */}
         <div>
           <h3 className="mb-5 font-display text-lg font-semibold text-paper">Quick Links</h3>
           <ul className="space-y-2.5 text-sm">
@@ -28,6 +37,7 @@ export function Footer() {
           </ul>
         </div>
 
+        {/* Column 3: Contact */}
         <div>
           <h3 className="mb-5 font-display text-lg font-semibold text-paper">Contact</h3>
           <ul className="space-y-3 text-sm">
@@ -50,10 +60,11 @@ export function Footer() {
           </ul>
         </div>
 
+        {/* Column 4: Our Services (ordered to match reference site) */}
         <div>
           <h3 className="mb-5 font-display text-lg font-semibold text-paper">Our Services</h3>
           <ul className="space-y-2.5 text-sm">
-            {services.map((s) => (
+            {footerServices.map((s) => (
               <li key={s.href}>
                 <Link to={s.href} className="transition-colors hover:text-primary">
                   {s.title}

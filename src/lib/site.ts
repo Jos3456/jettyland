@@ -46,7 +46,7 @@ export const footerQuickLinks = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about-us" },
   { label: "Gallery", href: "/our-photo-gallery" },
-  { label: "Service", href: "/services" },
+  { label: "Service", href: "/service-4" },
   { label: "Privacy Policy", href: "/privacy-policy" },
   { label: "Terms of Service", href: "/terms-of-service" },
 ];
